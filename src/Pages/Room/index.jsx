@@ -11,7 +11,7 @@ const RoomPage = () => {
       serverSecret,
       RoomId,
       Date.now().toString(),
-      "Dipansh"
+      ""
     );
     const zc = ZegoUIKitPrebuilt.create(kitToken);
     zc.joinRoom({
