@@ -11,7 +11,7 @@ const RoomPage = () => {
       serverSecret,
       RoomId,
       Date.now().toString(),
-      "Dipansh Bhai"
+      "Dipansh"
     );
     const zc = ZegoUIKitPrebuilt.create(kitToken);
     zc.joinRoom({
@@ -19,7 +19,7 @@ const RoomPage = () => {
       sharedLinks: [
         {
           name: "Copy link",
-          url: `http://localhost:3000/Room/${RoomId}`,
+          url: `http://meet-n778.onrender.com/Room/${RoomId}`,
         },
       ],
       scenario: {
