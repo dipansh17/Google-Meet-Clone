@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { React, useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 const HomePage = () => {
   const [value, setValue] = useState();
